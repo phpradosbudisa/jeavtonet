@@ -434,32 +434,7 @@ p {
   align-items: center;
 }
 
-.hero-car-animation {
-  position: relative;
-  width: 400px;
-  height: 120px;
-  animation: carFloat 3s ease-in-out infinite;
-}
 
-.car-svg {
-  width: 100%;
-  height: 100%;
-  filter: drop-shadow(0 15px 30px rgba(0, 0, 0, 0.3));
-  animation: carFloat 4s ease-in-out infinite;
-}
-
-/* Add subtle animations to car elements */
-.car-svg circle[fill="#f1c40f"] {
-  animation: headlightGlow 2s ease-in-out infinite;
-}
-
-.car-svg circle[fill="#e74c3c"] {
-  animation: taillightGlow 1.5s ease-in-out infinite;
-}
-
-.car-svg line[stroke="#2c3e50"] {
-  animation: wheelRotate 2s linear infinite;
-}
 
 
 .scroll-indicator {
@@ -1228,33 +1203,7 @@ p {
   50% { transform: translateY(-20px) rotate(180deg); }
 }
 
-@keyframes carFloat {
-  0%, 100% { transform: translateY(0px) rotate(0deg); }
-  50% { transform: translateY(-8px) rotate(0.5deg); }
-}
 
-@keyframes headlightGlow {
-  0%, 100% { 
-    filter: drop-shadow(0 0 5px #f1c40f);
-  }
-  50% { 
-    filter: drop-shadow(0 0 10px #f1c40f) drop-shadow(0 0 15px #f39c12);
-  }
-}
-
-@keyframes taillightGlow {
-  0%, 100% { 
-    filter: drop-shadow(0 0 3px #e74c3c);
-  }
-  50% { 
-    filter: drop-shadow(0 0 6px #e74c3c) drop-shadow(0 0 9px #c0392b);
-  }
-}
-
-@keyframes wheelRotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
 
 
 
@@ -1388,10 +1337,7 @@ p {
     font-size: 2rem;
   }
   
-  .hero-car-animation {
-    width: 250px;
-    height: 75px;
-  }
+
   
   .about-image {
     width: 300px;
