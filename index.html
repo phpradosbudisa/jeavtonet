@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEAvto - Vaš zaupanja vredni partner za avtomobile</title>
+    <meta name="description" content="JEAvto - vaš zaupanja vredni partner za nakup in prodajo avtomobilov. Kvalitetni avti, transparentnost, garancija.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Animation Libraries -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <h1>JEAvto</h1>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>JEAvto</h1>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="#domov" class="nav-link">Domov</a>
+                <a href="#o-nas" class="nav-link">O nas</a>
+                <a href="#storitve" class="nav-link">Storitve</a>
+                <a href="#zakaj-mi" class="nav-link">Zakaj mi</a>
+                <a href="#kontakt" class="nav-link">Kontakt</a>
+            </div>
+            
+            <div class="nav-actions">
+                <a href="tel:+38631123456" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    +386 31 123 456
+                </a>
+                <a href="#kontakt" class="btn btn-primary">Pridite k nam</a>
+            </div>
+            
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="domov" class="hero">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge" data-aos="fade-down" data-aos-delay="200">
+                    <span>🔥 500+ zadovoljnih strank</span>
+                </div>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="400">
+                    Vaš zaupanja vredni partner za avtomobile
+                </h1>
+                <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="600">
+                    Pridite k nam in odkrijte razliko! Ponujamo kakovostne avtomobile, transparentnost in izjemno storitev. Vaša pot do popolnega avtomobila se začne pri nas.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="800">
+                    <a href="#storitve" class="btn btn-primary">
+                        <span>Naše storitve</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#kontakt" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        <span>Pokličite nas</span>
+                    </a>
+                </div>
+            </div>
+                         <div class="hero-visual" data-aos="fade-left" data-aos-delay="1000">
+                 <div class="hero-car-animation">
+                     <svg width="400" height="120" viewBox="0 0 400 120" class="car-svg">
+                         <!-- Car Body - Main -->
+                         <rect x="60" y="45" width="280" height="50" rx="25" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+                         
+                         <!-- Car Body - Highlight -->
+                         <rect x="65" y="48" width="270" height="44" rx="22" fill="#3498db" opacity="0.8"/>
+                         
+                         <!-- Car Roof -->
+                         <rect x="130" y="25" width="140" height="35" rx="18" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+                         
+                         <!-- Car Roof - Highlight -->
+                         <rect x="135" y="28" width="130" height="29" rx="15" fill="#3498db" opacity="0.6"/>
+                         
+                         <!-- Front Windshield -->
+                         <rect x="140" y="28" width="120" height="25" rx="12" fill="#ecf0f1" opacity="0.9"/>
+                         
+                         <!-- Side Windows -->
+                         <rect x="150" y="30" width="100" height="21" rx="10" fill="#bdc3c7" opacity="0.8"/>
+                         
+                         <!-- Headlights -->
+                         <circle cx="85" cy="52" r="10" fill="#f1c40f"/>
+                         <circle cx="85" cy="52" r="6" fill="#ffffff"/>
+                         <circle cx="85" cy="52" r="3" fill="#f39c12"/>
+                         
+                         <circle cx="315" cy="52" r="10" fill="#f1c40f"/>
+                         <circle cx="315" cy="52" r="6" fill="#ffffff"/>
+                         <circle cx="315" cy="52" r="3" fill="#f39c12"/>
+                         
+                         <!-- Taillights -->
+                         <circle cx="75" cy="52" r="6" fill="#e74c3c"/>
+                         <circle cx="325" cy="52" r="6" fill="#e74c3c"/>
+                         
+                         <!-- Wheels -->
+                         <circle cx="110" cy="105" r="22" fill="#2c3e50"/>
+                         <circle cx="110" cy="105" r="18" fill="#34495e"/>
+                         <circle cx="110" cy="105" r="12" fill="#95a5a6"/>
+                         <circle cx="110" cy="105" r="8" fill="#bdc3c7"/>
+                         <circle cx="110" cy="105" r="4" fill="#ecf0f1"/>
+                         
+                         <circle cx="290" cy="105" r="22" fill="#2c3e50"/>
+                         <circle cx="290" cy="105" r="18" fill="#34495e"/>
+                         <circle cx="290" cy="105" r="12" fill="#95a5a6"/>
+                         <circle cx="290" cy="105" r="8" fill="#bdc3c7"/>
+                         <circle cx="290" cy="105" r="4" fill="#ecf0f1"/>
+                         
+                         <!-- Wheel Spokes -->
+                         <line x1="110" y1="93" x2="110" y2="117" stroke="#2c3e50" stroke-width="2"/>
+                         <line x1="98" y1="105" x2="122" y2="105" stroke="#2c3e50" stroke-width="2"/>
+                         <line x1="290" y1="93" x2="290" y2="117" stroke="#2c3e50" stroke-width="2"/>
+                         <line x1="278" y1="105" x2="302" y2="105" stroke="#2c3e50" stroke-width="2"/>
+                         
+                         <!-- Door Line -->
+                         <line x1="200" y1="50" x2="200" y2="90" stroke="#34495e" stroke-width="1" stroke-dasharray="3,3"/>
+                         
+                         <!-- Side Mirrors -->
+                         <rect x="140" y="35" width="8" height="12" rx="4" fill="#2c3e50"/>
+                         <rect x="252" y="35" width="8" height="12" rx="4" fill="#2c3e50"/>
+                         
+                         <!-- License Plate -->
+                         <rect x="180" y="88" width="40" height="12" fill="#ffffff" stroke="#2c3e50" stroke-width="1"/>
+                         <text x="200" y="96" text-anchor="middle" font-size="7" font-weight="bold" fill="#2c3e50">JEAvto</text>
+                         
+                         <!-- Exhaust -->
+                         <rect x="70" y="85" width="4" height="8" fill="#7f8c8d"/>
+                         <rect x="326" y="85" width="4" height="8" fill="#7f8c8d"/>
+                         
+                         <!-- Ground Shadow -->
+                         <ellipse cx="200" cy="115" rx="180" ry="8" fill="#bdc3c7" opacity="0.3"/>
+                     </svg>
+                 </div>
+             </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Zadovoljnih strank</div>
+                </div>
+                
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-label">Kakovostnih avtomobilov</div>
+                </div>
+                
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Let izkušenj</div>
+                </div>
+                
+                <div class="stat-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">% zadovoljstva</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="o-nas" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="section-badge">
+                        <span>O nas</span>
+                    </div>
+                    <h2>Zakaj izbrati JEAvto?</h2>
+                    <p class="about-lead">
+                        Smo vaš zaupanja vredni partner, ki razume vaše potrebe in pričakovanja.
+                    </p>
+                    <p>
+                        Z več kot desetletjem izkušenj v avtomobilski industriji vemo, kaj naredi odličen avtomobil in kaj stranke resnično cenijo. Naša predanost kakovosti, transparentnosti in zadovoljstvu strank nas izpostavlja na trgu.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Preverjeni avtomobili z garancijo</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Transparentne cene brez skritih stroškov</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Osebni pristop in strokovno svetovanje</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hitra odobritev financiranja</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-image">
+                        <div class="image-overlay">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="float-element" style="--delay: 0s">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="float-element" style="--delay: 1s">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="float-element" style="--delay: 2s">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="storitve" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Naše storitve</span>
+                </div>
+                <h2>Vse kar potrebujete za vaš avtomobil</h2>
+                <p>Ponujamo celovite avtomobilske rešitve, prilagojene vašim potrebam</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Preveritev avtomobila</h3>
+                    <p>Temeljita prednakupna preveritev z napredno diagnostično opremo za zagotavljanje integritete vozila.</p>
+                    <ul class="service-features">
+                        <li>150+ točk preveritve</li>
+                        <li>Računalniška diagnostika</li>
+                        <li>Podrobno poročilo</li>
+                        <li>Garancija kakovosti</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#kontakt" class="btn btn-outline">Več informacij</a>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Vzdrževanje in popravila</h3>
+                    <p>Strokovne storitve vzdrževanja in popravil, ki jih izvajajo certificirani tehniki z originalnimi deli.</p>
+                    <ul class="service-features">
+                        <li>Tehniki z licenco</li>
+                        <li>Originalni deli</li>
+                        <li>Garancija dela</li>
+                        <li>Hitra opravila</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#kontakt" class="btn btn-outline">Več informacij</a>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Financiranje</h3>
+                    <p>Prilagodljive možnosti financiranja s obrestnimi merami za dostopnost vašega sanjskega vozila.</p>
+                    <ul class="service-features">
+                        <li>Konkurenčne obrestne mere</li>
+                        <li>Hitra odobritev</li>
+                        <li>Prilagodljivi pogoji</li>
+                        <li>Brez dodatnih stroškov</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#kontakt" class="btn btn-outline">Več informacij</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="zakaj-mi" class="why-choose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Zakaj izbrati nas</span>
+                </div>
+                <h2>Razlogi, zakaj nas stranke izbirajo</h2>
+                <p>Pridite k nam in doživite razliko! Naše stranke se vračajo in priporočajo nas svojim prijateljem</p>
+            </div>
+            
+            <div class="reasons-grid">
+                <div class="reason-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="reason-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Preverjeni avtomobili</h3>
+                    <p>Ne tvegajte z neznanimi avti! Vsi naši avtomobili so temeljito pregledani. Če najdemo skrito napako, vam povrnemo denar.</p>
+                    <div class="reason-features">
+                        <span>150+ točk preveritve</span>
+                        <span>Garancija na odkrite napake</span>
+                        <span>Povračilo denarja</span>
+                    </div>
+                </div>
+                
+                <div class="reason-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="reason-icon">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
+                    <h3>Najboljše cene</h3>
+                    <p>Pridite k nam za najboljše cene v regiji! Naši avtomobili so 15-30% cenejši kot pri konkurenci, vendar z enako kakovostjo.</p>
+                    <div class="reason-features">
+                        <span>15-30% nižje cene</span>
+                        <span>Ekskluzivne ponudbe</span>
+                        <span>Pogajanje možno</span>
+                    </div>
+                </div>
+                
+                <div class="reason-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="reason-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Osebni pristop</h3>
+                    <p>Vsakdo dobi osebnega svetovalca, ki vas spremlja skozi celoten proces. Pridite k nam in spoznajte razliko.</p>
+                    <div class="reason-features">
+                        <span>Osebni svetovalec</span>
+                        <span>24/7 podpora</span>
+                        <span>Po nakupu podpora</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Mnenja strank</span>
+                </div>
+                <h2>Kaj pravijo naše stranke</h2>
+                <p>Preberite, zakaj se naše stranke vračajo in priporočajo nas</p>
+            </div>
+            
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Odličen avto in še boljša storitev! Vse je bilo transparentno, hitro in profesionalno. Priporočam vsem!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Marko Novak</h4>
+                                <span>Ljubljana</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Najboljša izkušnja pri nakupu avtomobila! Ekipa je bila zelo prijazna in strokovna. Avto je popoln!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Ana Kovač</h4>
+                                <span>Maribor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Hvala za odlično storitev! Financiranje je bilo hitro odobreno, avto pa je presegel pričakovanja."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Peter Horvat</h4>
+                                <span>Celje</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <div class="section-badge">
+                    <span>Kontakt</span>
+                </div>
+                <h2>Pridite k nam danes!</h2>
+                <p>Pripravljeni ste najti svoj popoln avtomobil? Kontaktirajte nas še danes.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Pokličite nas</h3>
+                        <p>+386 31 123 456</p>
+                        <span class="contact-note">Na voljo 24/7</span>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Pišite nam</h3>
+                        <p>info@jeavto.si</p>
+                        <span class="contact-note">Hitri odgovor zagotovljen</span>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Pridite k nam</h3>
+                        <p>Hrastnik, Slovenija</p>
+                        <span class="contact-note">Brezplačno parkirišče</span>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Delovni čas</h3>
+                        <p>Pon-Pet: 8:00-18:00</p>
+                        <span class="contact-note">Sob: 8:00-14:00</span>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Vaše ime" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Vaš email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Vaš telefon">
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option value="">Izberite storitev</option>
+                                <option value="preveritev">Preveritev avtomobila</option>
+                                <option value="vzdrzevanje">Vzdrževanje in popravila</option>
+                                <option value="financiranje">Financiranje</option>
+                                <option value="drugo">Drugo</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Vaše sporočilo" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Pošljite sporočilo</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JEAvto</h3>
+                    <p>Vaš zaupanja vredni partner za avtomobile s poudarkom na kakovosti, zanesljivosti in zadovoljstvu strank.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Hitri linki</h4>
+                    <ul>
+                        <li><a href="#domov">Domov</a></li>
+                        <li><a href="#o-nas">O nas</a></li>
+                        <li><a href="#storitve">Storitve</a></li>
+                        <li><a href="#zakaj-mi">Zakaj mi</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Storitve</h4>
+                    <ul>
+                        <li><a href="#storitve">Preveritev avtomobila</a></li>
+                        <li><a href="#storitve">Vzdrževanje in popravila</a></li>
+                        <li><a href="#storitve">Financiranje</a></li>
+                        <li><a href="#storitve">Svetovanje</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontaktni podatki</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +386 31 123 456</li>
+                        <li><i class="fas fa-envelope"></i> info@jeavto.si</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Hrastnik, Slovenija</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 JEAvto. Vse pravice pridržane.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
